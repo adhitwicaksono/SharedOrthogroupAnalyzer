@@ -1,0 +1,8 @@
+cultivar	total_predicted_proteins	genes_assigned_to_orthogroups	unassigned_genes	percentage_assigned	percentage_unassigned	orthogroups_containing_cultivar	orthofinder_species_specific_orthogroups	genes_in_orthofinder_species_specific_orthogroups	private_orthogroups	genes_in_private_orthogroups	unassigned_singleton_rows	busco_complete_pct	busco_single_copy_pct	busco_duplicated_pct	busco_fragmented_pct	busco_missing_pct	assembly_size_bp	contig_count	contig_n50_bp	contig_l50	longest_contig_bp	gc_pct	total_predicted_proteins_outlier_flag	unassigned_genes_outlier_flag	private_orthogroups_outlier_flag	genes_in_private_orthogroups_outlier_flag	busco_fragmented_pct_outlier_flag	contig_count_outlier_flag	contig_n50_bp_outlier_flag	automatic_qc_comment
+BSM	39604	39250	354	99.1	0.9	34576	12	54	84	136	354												False	False	False	False				No automatic outlier flag
+CI	39496	39171	325	99.2	0.8	34494	13	138	65	198	325												False	False	False	False				No automatic outlier flag
+GJ	39178	38852	326	99.2	0.8	34303	17	70	162	246	326												False	False	False	False				No automatic outlier flag
+IN	39787	39427	360	99.1	0.9	34795	14	96	86	170	360												False	False	False	False				No automatic outlier flag
+KM	40150	39789	361	99.1	0.9	34909	24	148	247	383	361												True	False	True	True				unusual private-orthogroup count; unusual predicted-protein count
+MPE	39453	39150	303	99.2	0.8	34541	20	105	78	185	303												False	False	False	False				No automatic outlier flag
+PP	39680	39431	249	99.4	0.6	34850	8	45	70	145	249												False	True	False	False				unusually many/few unassigned genes
