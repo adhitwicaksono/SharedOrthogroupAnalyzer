@@ -1,0 +1,19 @@
+members	count	occupancy	category	cultivar	plot_group	plot_order	plot_label
+BSM;CI;GJ;IN;KM;MPE;PP	27514	7	Core (7/7)		Core (7/7)	0	All 7
+BSM;CI;IN;KM;MPE;PP	511	6	Semi-core		Semi-core	1	no GJ
+BSM;GJ;IN;KM;MPE;PP	414	6	Semi-core		Semi-core	2	no CI
+BSM;CI;GJ;IN;KM;PP	402	6	Semi-core		Semi-core	3	no MPE
+CI;GJ;IN;KM;MPE;PP	398	6	Semi-core		Semi-core	4	no BSM
+BSM;CI;GJ;IN;MPE;PP	355	6	Semi-core		Semi-core	5	no KM
+BSM;CI;GJ;KM;MPE;PP	337	6	Semi-core		Semi-core	6	no IN
+BSM;CI;GJ;IN;KM;MPE	275	6	Semi-core		Semi-core	7	no PP
+BSM;CI;IN;MPE;PP	607	5	Accessory		Accessory	8	Acc1
+GJ;IN;KM;MPE;PP	149	5	Accessory		Accessory	9	Acc2
+CI;GJ;IN;KM;PP	129	5	Accessory		Accessory	10	Acc3
+BSM	84	1	Private	BSM	Private	11	BSM
+CI	65	1	Private	CI	Private	12	CI
+GJ	162	1	Private	GJ	Private	13	GJ
+IN	86	1	Private	IN	Private	14	IN
+KM	247	1	Private	KM	Private	15	KM
+MPE	78	1	Private	MPE	Private	16	MPE
+PP	70	1	Private	PP	Private	17	PP
