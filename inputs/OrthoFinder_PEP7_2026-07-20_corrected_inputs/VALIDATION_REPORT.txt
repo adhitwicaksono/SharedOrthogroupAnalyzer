@@ -1,0 +1,49 @@
+Validated OrthoFinder PEP-7 input package
+Date: 2026-07-20
+
+Analysis scope
+--------------
+Reference:
+  AGIS1.0
+
+Seven Indonesian rice cultivars:
+  BSM, CI, GJ, IN, KM, MPE, PP
+
+Validation results
+------------------
+Species/datasets:                         8
+Proteins/genes:                     317,085
+Proteins assigned to orthogroups:   314,321
+Unassigned proteins:                  2,764
+Assignment rate:                       99.1%
+Orthogroups:                          40,737
+
+Identity and duplication checks
+---------------------------------
+Duplicate column headers:                  0
+Duplicate orthogroup IDs:                  0
+Duplicate assigned protein IDs:            0
+Duplicate unassigned protein IDs:          0
+Assigned/unassigned ID overlap:             0
+Fully duplicated species columns:           0
+
+BSM versus MPE
+--------------
+BSM total / assigned / unassigned: 39,604 / 39,250 / 354
+MPE total / assigned / unassigned: 39,453 / 39,150 / 303
+Orthogroup rows with different gene counts: 6,504 of 40,737
+
+Conclusion
+----------
+No rows, columns, orthogroups, or protein identifiers were removed. The four
+source tables were already internally consistent for the intended analysis of
+seven cultivars plus AGIS1.0. The files in this package are byte-preserving
+copies renamed to the standardized filenames expected by the Step 3 workflow.
+
+For downstream classification using the seven cultivars while excluding the
+AGIS1.0 reference from occupancy counts:
+  Core:             present in 7/7 cultivars
+  Soft core:        present in 6/7 cultivars
+  Accessory:        present in 2-5/7 cultivars
+  Private:          present in 1/7 cultivars
+  AGIS1.0-only:     absent from all seven cultivars and present in AGIS1.0
